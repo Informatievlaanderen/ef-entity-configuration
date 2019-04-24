@@ -9,14 +9,12 @@ namespace Be.Vlaanderen.Basisregisters.EntityFrameworkCore.EntityTypeConfigurati
     public static class ModelBuilderExtenions
     {
         private static IEnumerable<Type> GetMappingTypes(this Assembly assembly, Type mappingInterface)
-        {
-            return assembly
+            => assembly
                 .GetTypes()
                 .Where(x =>
                     !x.GetTypeInfo().IsAbstract &&
                     x.GetInterfaces().Any(y =>
                         y.GetTypeInfo().IsGenericType && y.GetGenericTypeDefinition() == mappingInterface));
-        }
 
         public static void AddEntityConfigurationsFromAssembly(this ModelBuilder modelBuilder, Assembly assembly)
         {
