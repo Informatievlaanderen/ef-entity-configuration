@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/informatievlaanderen/ef-entity-configuration/compare/v1.1.0...v1.1.1) (2019-10-28)
+
+
+### Bug Fixes
+
+* upgrade build tools, move to fake 5 ([87f9c36](https://github.com/informatievlaanderen/ef-entity-configuration/commit/87f9c36))
+
 # [1.1.0](https://github.com/informatievlaanderen/ef-entity-configuration/compare/v1.0.3...v1.1.0) (2019-08-21)
 
 
