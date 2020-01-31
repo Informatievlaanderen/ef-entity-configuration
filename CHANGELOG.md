@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/informatievlaanderen/ef-entity-configuration/compare/v2.1.0...v2.2.0) (2020-01-31)
+
+
+### Features
+
+* upgrade netcoreapp31 and dependencies ([c337f3b](https://github.com/informatievlaanderen/ef-entity-configuration/commit/c337f3b00f79f2ef311186ebbd7ab83ff4a569a8))
+
 # [2.1.0](https://github.com/informatievlaanderen/ef-entity-configuration/compare/v2.0.0...v2.1.0) (2019-12-15)
 
 
