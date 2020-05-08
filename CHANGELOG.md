@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/informatievlaanderen/ef-entity-configuration/compare/v2.2.1...v2.2.2) (2020-05-08)
+
+
+### Bug Fixes
+
+* move to GH-actions ([b2bbd07](https://github.com/informatievlaanderen/ef-entity-configuration/commit/b2bbd07b1e2dd03c484199bbeb66149a90f36696))
+
 ## [2.2.1](https://github.com/informatievlaanderen/ef-entity-configuration/compare/v2.2.0...v2.2.1) (2020-03-02)
 
 
