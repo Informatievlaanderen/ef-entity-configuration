@@ -17,27 +17,28 @@ let build = buildSolution assemblyVersionNumber
 let publish = publishSolution assemblyVersionNumber
 let pack = packSolution nugetVersionNumber
 
+supportedRuntimeIdentifiers <- [ "linux-x64" ]
+
 // Library ------------------------------------------------------------------------
-
 Target.create "Lib_Build" (fun _ -> build "Be.Vlaanderen.Basisregisters.EntityFrameworkCore.EntityTypeConfiguration")
-
 Target.create "Lib_Publish" (fun _ -> publish "Be.Vlaanderen.Basisregisters.EntityFrameworkCore.EntityTypeConfiguration")
 Target.create "Lib_Pack" (fun _ -> pack "Be.Vlaanderen.Basisregisters.EntityFrameworkCore.EntityTypeConfiguration")
 
 // --------------------------------------------------------------------------------
-
-Target.create "PublishLibrary" ignore
 Target.create "PublishAll" ignore
-
-Target.create "PackageMyGet" ignore
 Target.create "PackageAll" ignore
 
 // Publish ends up with artifacts in the build folder
-"DotNetCli" ==> "Clean" ==> "Restore" ==> "Lib_Build" ==> "Lib_Publish" ==> "PublishLibrary"
-"PublishLibrary" ==> "PublishAll"
+"DotNetCli"
+==> "Clean"
+==> "Restore"
+==> "Lib_Build"
+==> "Lib_Publish"
+==> "PublishAll"
 
 // Package ends up with local NuGet packages
-"PublishLibrary" ==> "Lib_Pack" ==> "PackageMyGet"
-"PackageMyGet" ==> "PackageAll"
+"PublishAll"
+==> "Lib_Pack"
+==> "PackageAll"
 
 Target.runOrDefault "Lib_Build"
