@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'Informatievlaanderen/ef-entity-configuration
+    if: github.repository == 'Informatievlaanderen/ef-entity-configuration'
     name: Build
     runs-on: ubuntu-latest
 
