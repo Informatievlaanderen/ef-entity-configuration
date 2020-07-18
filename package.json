@@ -1,6 +1,6 @@
 {
   "name": "ef-entity-configuration",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "description": "Auto discover IEntityTypeConfiguration classes.",
   "author": "Basisregisters Vlaanderen",
   "license": "MIT",
