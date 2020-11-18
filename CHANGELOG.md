@@ -1,3 +1,10 @@
+## [2.2.7](https://github.com/informatievlaanderen/ef-entity-configuration/compare/v2.2.6...v2.2.7) (2020-11-18)
+
+
+### Bug Fixes
+
+* remove set-env usage in gh-actions ([5aaa047](https://github.com/informatievlaanderen/ef-entity-configuration/commit/5aaa0477499f035e4eace9284efceaacc4ce90b9))
+
 ## [2.2.6](https://github.com/informatievlaanderen/ef-entity-configuration/compare/v2.2.5...v2.2.6) (2020-09-21)
 
 
