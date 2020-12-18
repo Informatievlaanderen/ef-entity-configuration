@@ -1,3 +1,10 @@
+## [2.2.8](https://github.com/informatievlaanderen/ef-entity-configuration/compare/v2.2.7...v2.2.8) (2020-12-18)
+
+
+### Bug Fixes
+
+* move to 5.0.1 ([2d6cb43](https://github.com/informatievlaanderen/ef-entity-configuration/commit/2d6cb4357b87cc8e8881aec3d1de1fdfed140dc8))
+
 ## [2.2.7](https://github.com/informatievlaanderen/ef-entity-configuration/compare/v2.2.6...v2.2.7) (2020-11-18)
 
 
