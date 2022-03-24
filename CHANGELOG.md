@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/informatievlaanderen/ef-entity-configuration/compare/v2.2.10...v3.0.0) (2022-03-24)
+
+
+### Features
+
+* move to dotnet 6.0.3 ([6d731b3](https://github.com/informatievlaanderen/ef-entity-configuration/commit/6d731b343811ea8e163626262d54c845e9a01395))
+
+
+### BREAKING CHANGES
+
+* move to dotnet 6.0.3
+
 ## [2.2.10](https://github.com/informatievlaanderen/ef-entity-configuration/compare/v2.2.9...v2.2.10) (2021-05-28)
 
 
